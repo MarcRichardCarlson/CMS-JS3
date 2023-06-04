@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&display=swap');
+
+* {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.headerWrapper {
+  width: 100%;
+  height: 10rem;
+  background-color: #65c45e;
+}
+
+/*LOGIN*/
+
+.loginPage {
+  background-color: rgb(85, 85, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h4 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #ffffff;
+  }
+
+  .signUpBtn {
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    background-color: #5e95c4;
+    color: #ffffff;
+    padding: 0.5rem;
+  }
+
+}
+
+.form {
+  width: 30%;
+  background-color: rgb(163, 163, 163);
+  padding: 3rem;
+  border: 1px solid #333;
+  box-shadow: 0px 0px 7px #333;
+  border-radius: 0.1rem;
+}
+
+label {
+  display: flex;
+  padding-top: 1rem;
+}
+
+#email {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.2rem;
+  box-shadow: 1px 1x 7px #333;
+}
+
+#password {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.2rem;
+  box-shadow: 1px 1x 7px #333;
+}
+
+.loginBtn {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #616161;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 7px #333;
+}
+
+.error {
+  font-size: 0.8rem;
+  color: rgb(206, 25, 25);
+}
+
+/*PRODUCT PAGE*/
+
+.inputs {
+  display: flex;
+  width: 22rem;
+  margin-bottom: 1.5rem;
+}
+
+.pageWrapper {
+  margin-left: 5%;
+  padding-top: 2%;
+  width: 90%;
+  height: 100%;
+  background-color: #e0e0e0;
+  border: none;
+
+  .productWrapper {
+    
+    .productList {
+      list-style: none;
+      
+      .product {
+        display: inline-block;
+        box-shadow: 0px 0px 7px #333;
+        border-radius: 1rem;
+        background-color: #d7d7d7;
+        width: 48%;
+        margin: 1rem;
+        
+        .productCard {
+          display: flex;
+          justify-content:flex-start;
+          text-decoration: none;
+        }
+
+        .productText {
+          margin: 1rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          
+          h3 {
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            color: rgb(0, 0, 0);
+            height: 3rem;
+          }
+  
+          p {
+            color: rgb(0, 0, 0);
+          }
+
+          .productBtn {
+            padding: 0.5rem;
+            border-radius: 0.1rem;
+            border: none;
+            background-color: #65c45e;
+            color: #ffffff;
+          }
+        }
+        
+  
+        img {
+          border-top-left-radius: 1rem;
+          border-bottom-left-radius: 1rem;
+          width: 20rem;
+        }
+  
+      }
+    }
+  }
+}
+
+
+/*Navbar / logout*/
+
+.logout {
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border: none;
+  background-color: #c45e5e;
+  color: #ffffff;
+}
+
+.orders {
+  margin-right: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border: none;
+  background-color: #5e95c4;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/*DETAILS*/
+
+.detailsWrapper {
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 10%;
+  background-color: #a1bba3;
+  padding: 2rem;
+
+  img {
+    height: 30rem;
+  }
+
+  .detailsCard {
+    background-color: #dddddd;
+    padding: 2rem;
+
+    .detailsText {
+      letter-spacing: 0.2rem;
+      padding: 2rem;
+    }
+
+    .editBtn {
+      padding: 0.5rem;
+      background-color: #5784ab;
+      color: #fff;
+    }
+
+    .removeBtn {
+      margin-left: 1rem;
+    }
+  }
+}
+
+/*REGITSER PAGE*/
+
+.registerPage {
+  background-color: rgb(163, 163, 163);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .registerForm {
+    width: 30%;
+    background-color: rgb(165, 167, 153);
+    padding: 2rem;
+    border: 1px solid #333;
+    box-shadow: 0px 0px 7px #333;
+    border-radius: 0.1rem;
+
+    #confirmPassword {
+      margin-top: 0.5rem;
+      border-radius: 0.2rem;
+    }
+
+
+    .registerBtn {
+      margin-top: 1rem;
+      font-size: 1rem;
+      padding: 0.5rem;
+      background-color: #323232;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      border-radius: 0.1rem;
+      box-shadow: 1px 1px 7px #333;
+    }
+  }
+
+}
